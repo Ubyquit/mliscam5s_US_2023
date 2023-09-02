@@ -30,8 +30,8 @@ tabla - ticket
 * id_administrador*
 * id_area
 * incidencia
-* nivel
-* estatus
+* id_nivel 
+* id_estatus 
 * fecha_creacion
 * fecha_cerrado*
 
@@ -41,7 +41,14 @@ tabla - comentario
 * comentario
 * fecha_creacion
 
-tabla - area
+tabla - area -> Soporte, Desarollo, Telecomunicaciones
 * id_area
 * nombre_area
 
+tabla - nivel -> Baja,Media,Alta,Urgente
+* id_nivel
+* nombre_nivel
+
+tabla - estatus -> Abierto, Proceso, Pausado, Cerrado
+* id_estatus
+* nombre_estatus
