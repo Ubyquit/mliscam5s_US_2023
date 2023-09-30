@@ -19,10 +19,10 @@
 
 ### Niveles de Incidencias
 
-- Baja
-- Media
-- Alta
-- Urgente
+- Baja - secondary
+- Media - primary
+- Alta - Warning
+- Urgente - Danger
 
 ## Dashboards
 
